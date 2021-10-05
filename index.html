@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+
+        <title>AI Based Pet Adoption</title>
+
+        <meta
+            name="description"
+            content="A framework for easily creating beautiful presentations using HTML"
+        />
+        <meta name="author" content="Sumit Kajbaje" />
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta
+            name="apple-mobile-web-app-status-bar-style"
+            content="black-translucent"
+        />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="dist/reset.css" />
+        <link rel="stylesheet" href="dist/reveal.css" />
+        <link rel="stylesheet" href="dist/theme/black.css" id="theme" />
+
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="./dist/custom.css" />
+    </head>
+
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <!-- Slide Main -->
+                <section>
+                    <a href="https://revealjs.com">
+                        <img
+                            src="https://siwalusoftware.com/wp-content/themes/siwalu2020/inc/assets/images/app-illustration/dogscanner-illustration-black.svg"
+                            alt="App logo"
+                            style="
+                                height: 180px;
+                                margin: 0 auto 4rem auto;
+                                background: transparent;
+                            "
+                            class="demo-logo"
+                        />
+                    </a>
+                    <h3>AI-Based Animal Identification & Adoption App</h3>
+                    <p>
+                        <small
+                            >Created by
+                            <a href="https://github.com/SumitK27/"
+                                >Sumit Kajbaje</a
+                            >
+                            and
+                            <a
+                                href="https://github.com/SumitK27/pet-adopt/contributors"
+                                >Team</a
+                            ></small
+                        >
+                    </p>
+
+                    <aside class="notes">
+                        Oh hey, these are some notes. They'll be hidden in your
+                        presentation, but you can see them if you open the
+                        speaker notes window (hit 's' on your keyboard).
+                    </aside>
+                </section>
+
+                <!-- Slide Pets -->
+                <section>
+                    <section
+                        data-background="./images/slide-2-1.png"
+                        data-background-opacity="0.5"
+                    >
+                        <div data-state="overlay">
+                            <h2>Learn more about animals.</h2>
+                            <p>
+                                <em> Awe! That's a cute little dog. </em>
+                                <em>But what is it called?</em>
+                            </p>
+                        </div>
+                    </section>
+
+                    <section
+                        data-background="./images/slide-2-2.jpg"
+                        data-background-opacity="0.5"
+                    >
+                        <div class="custom-overlay">
+                            <h2>
+                                <em
+                                    >What breed is that? <br /><small
+                                        >- I don't know...</small
+                                    ></em
+                                >
+                            </h2>
+                            <p>
+                                Pet owners frequently do not know the breed of
+                                their pet exactly. Therefore, our apps enable
+                                specific information about the various
+                                characteristics and traits of a pet.
+                            </p>
+                        </div>
+                    </section>
+
+                    <section>
+                        <h2>Reduce the cost</h2>
+                        <p>
+                            In contrast to a time and cost intensive analysis of
+                            the DNA, the apps provide a reliable statement about
+                            the breed within seconds. This implies not only pure
+                            breed dogs, cats or horses, but also the
+                            determination of mixed breeds.
+                        </p>
+                    </section>
+                </section>
+
+                <!-- Slide Hidden -->
+                <section data-visibility="hidden">
+                    <h2>Hidden Slides</h2>
+                    <p>
+                        This slide is visible in the source, but hidden when the
+                        presentation is viewed. You can show all hidden slides
+                        by setting the `showHiddenSlides` config option to
+                        `true`.
+                    </p>
+                </section>
+
+                <!-- Slide Goal -->
+                <section>
+                    <h2>Our Goal</h2>
+                    <p>
+                        Our goal is to develop a universal animal recognition to
+                        increase the knowledge about the global biodiversity
+                    </p>
+                </section>
+                <!-- Slide Code -->
+                <section>
+                    <section data-auto-animate>
+                        <h2 data-id="code-title">Pretty Code</h2>
+                        <pre
+                            data-id="code-animation"
+                        ><code class="hljs" data-trim data-line-numbers>
+                            import React, { useState } from 'react';
+    
+                            function Example() {
+                              const [count, setCount] = useState(0);
+    
+                              return (
+                                ...
+                              );
+                            }
+                        </code></pre>
+                    </section>
+
+                    <section data-auto-animate>
+                        <h2 data-id="code-title">With animations</h2>
+                        <pre
+                            data-id="code-animation"
+                        ><code class="hljs" data-trim data-line-numbers="|4,8-11|17|22-24"><script type="text/template">
+                            import React, { useState } from 'react';
+    
+                            function Example() {
+                              const [count, setCount] = useState(0);
+    
+                              return (
+                                <div>
+                                  <p>You clicked {count} times</p>
+                                  <button onClick={() => setCount(count + 1)}>
+                                    Click me
+                                  </button>
+                                </div>
+                              );
+                            }
+    
+                            function SecondExample() {
+                              const [count, setCount] = useState(0);
+    
+                              return (
+                                <div>
+                                  <p>You clicked {count} times</p>
+                                  <button onClick={() => setCount(count + 1)}>
+                                    Click me
+                                  </button>
+                                </div>
+                              );
+                            }
+                        </script></code></pre>
+                    </section>
+                </section>
+
+                <!-- Slide Diagrams -->
+                <section>
+                    <section>
+                        <h2>System Diagram</h2>
+                        <img data-src="./images/" alt="System Diagram" />
+                    </section>
+                    <section>
+                        <h2>Block Diagram</h2>
+                        <img data-src="./images/" alt="Block Diagram" />
+                    </section>
+                    <section>
+                        <h2>Sequential Diagram</h2>
+                        <img data-src="./images/" alt="Sequential Diagram" />
+                    </section>
+                    <section>
+                        <h2>Component Diagram</h2>
+                        <img data-src="./images/" alt="Component Diagram" />
+                    </section>
+                    <section>
+                        <h2>State Chart Diagram</h2>
+                        <img data-src="./images/" alt="State Chart Diagram" />
+                    </section>
+                    <section>
+                        <h2>Deployment Diagram</h2>
+                        <img data-src="./images/" alt="Deployment Diagram" />
+                    </section>
+                    <section>
+                        <h2>Communication Diagram</h2>
+                        <img data-src="./images/" alt="Communication Diagram" />
+                    </section>
+                </section>
+
+                <!-- Slide Applications -->
+                <section>
+                    <h2>Applications</h2>
+                    <ul>
+                        <li class="fragment fade-in-then-semi-out">
+                            Sharing Knowledge with people
+                        </li>
+                        <li class="fragment fade-in-then-semi-out">
+                            Animal Identification in Zoos & Forests
+                        </li>
+                        <li class="fragment fade-in-then-semi-out">
+                            Plant Identification
+                        </li>
+                        <li class="fragment fade-in-then-semi-out">
+                            Fruits & Vegetable Identification
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Slide Future Scope -->
+                <section>
+                    <section>
+                        <h2>Future Scope</h2>
+                    </section>
+                    <section>
+                        <p>
+                            We could even try to predict the emotions and
+                            behavior of our pets by analyzing their facial
+                            expressions, body postures and voice.
+                        </p>
+                    </section>
+                </section>
+
+                <!-- Slide Conclusion -->
+                <section>
+                    <h2>Conclusion</h2>
+                </section>
+
+                <!-- Slide Thankyou -->
+                <section
+                    data-background="https://images.unsplash.com/photo-1525253013412-55c1a69a5738"
+                    data-background-opacity="0.5"
+                >
+                    <h2>Thank you</h2>
+                </section>
+            </div>
+        </div>
+
+        <script src="dist/reveal.js"></script>
+        <script src="plugin/zoom/zoom.js"></script>
+        <script src="plugin/notes/notes.js"></script>
+        <script src="plugin/search/search.js"></script>
+        <script src="plugin/markdown/markdown.js"></script>
+        <script src="plugin/highlight/highlight.js"></script>
+        <script>
+            // Also available as an ES module, see:
+            // https://revealjs.com/initialization/
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                center: true,
+                hash: true,
+
+                // Learn about plugins: https://revealjs.com/plugins/
+                plugins: [
+                    RevealZoom,
+                    RevealNotes,
+                    RevealSearch,
+                    RevealMarkdown,
+                    RevealHighlight,
+                ],
+            });
+
+            // Start auto-sliding every 5s
+            // Reveal.configure({ autoSlide: 5000 });
+        </script>
+    </body>
+</html>
