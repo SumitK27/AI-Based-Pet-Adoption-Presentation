@@ -71,6 +71,59 @@
 
                 <!-- Slide Motivation -->
                 <section>
+                    <section>
+                        <h2>Motivation</h2>
+                        <ul>
+                            <li class="fragment fade-in-then-semi-out">
+                                To adopt a pet is not an easy decision.
+                            </li>
+                            <li class="fragment fade-in-then-semi-out">
+                                Many people are afraid to adopt a pet because
+                                they do not want to take care of them.
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Advantages of having a Pet</h2>
+                        <ol>
+                            <li class="fragment fade-in-then-semi-out">
+                                Goodbye to Loneliness/Isolation
+                            </li>
+                            <li class="fragment fade-in-then-semi-out">
+                                Boost your Self-esteem
+                            </li>
+                            <li class="fragment fade-in-then-semi-out">
+                                Lower your Stress Levels
+                            </li>
+                            <li class="fragment fade-in-then-semi-out">
+                                Improve your Physical & Psychological Health
+                            </li>
+                            <li class="fragment fade-in-then-semi-out">
+                                With Great Pets, Comes Great Responsibility!
+                            </li>
+                            <li class="fragment fade-in-then-semi-out">
+                                You'll be Saving a Life
+                            </li>
+                        </ol>
+                    </section>
+                    <section
+                        data-background="./images/quote.jpg"
+                        data-background-opacity="0.5"
+                    >
+                        <blockquote
+                            cite="http://kidadl.com/articles/best-animal-rescue-quotes-to-melt-your-heart"
+                        >
+                            &ldquo;Saving one dog will not change the world, but
+                            surely for that one dog, the world will change
+                            forever.&rdquo;
+                            <br />
+                            <cite>- Karen Devison</cite>
+                        </blockquote>
+                    </section>
+                </section>
+
+                <!-- Slide Info -->
+                <section>
                     <section
                         data-background="./images/slide-2-1.jpg"
                         data-background-opacity="0.5"
@@ -78,15 +131,14 @@
                         <div data-state="overlay">
                             <h2>Learn more about animals.</h2>
                             <p>
-                                <em> Awe! That's a cute little dog. </em>
-                                <em>But what is it called?</em>
+                                <em> Awe! That's a cute little dog.</em>
                             </p>
                         </div>
                     </section>
 
                     <section
-                        data-background="./images/slide-2-2.jpg"
-                        data-background-opacity="0.5"
+                        data-background="./images/what-dog.jpg"
+                        data-background-opacity="0.8"
                     >
                         <div class="custom-overlay">
                             <h2>
@@ -105,15 +157,21 @@
                         </div>
                     </section>
 
-                    <section>
-                        <h2>Reduce the cost</h2>
-                        <p>
-                            In contrast to a time and cost intensive analysis of
-                            the DNA, the apps provide a reliable statement about
-                            the breed within seconds. This implies not only pure
-                            breed dogs, cats or horses, but also the
-                            determination of mixed breeds.
-                        </p>
+                    <section
+                        data-background="./images/breed-test.jpg"
+                        data-background-opacity="0.8"
+                    >
+                        <div class="custom-overlay">
+                            <h2>Reduce the cost</h2>
+                            <p>
+                                In contrast to a time and cost intensive
+                                analysis of the DNA, the apps provide a reliable
+                                statement about the breed within seconds. This
+                                implies not only pure breed dogs, cats or
+                                horses, but also the determination of mixed
+                                breeds.
+                            </p>
+                        </div>
                     </section>
                 </section>
 
@@ -135,32 +193,138 @@
                 <!-- Slide System Architecture -->
                 <section>
                     <section>
-                        <h2>System Diagram</h2>
-                        <img data-src="./images/" alt="System Diagram" />
+                        <h2>System Architecture</h2>
+                    </section>
+                    <section data-visibility="hidden">
+                        <p>
+                            The image recognition algorithm (image classifier)
+                            takes the image (or a patch of the image) as input
+                            and outputs what the image contains. In other words,
+                            the output is a class label (fox, wolf, bear etc.).
+                        </p>
+                    </section>
+                    <section>
+                        <img
+                            data-src="./images/animal-rec-class.png"
+                            alt="The animal recognition and classification system"
+                        />
+                        <p>The animal recognition and classification system</p>
+                    </section>
+                    <section>
+                        <h2>Animal Recognition System</h2>
+                        <ol>
+                            <li class="fragment fade-in-then-semi-out">
+                                Pre-processing Block
+                            </li>
+                            <li class="fragment fade-in-then-semi-out">
+                                Feature Extension Block
+                            </li>
+                            <li class="fragment fade-in-then-semi-out">
+                                Classification
+                            </li>
+                        </ol>
                     </section>
                     <section>
                         <h2>Block Diagram</h2>
-                        <img data-src="./images/" alt="Block Diagram" />
                     </section>
                     <section>
-                        <h2>Sequential Diagram</h2>
-                        <img data-src="./images/" alt="Sequential Diagram" />
+                        <img
+                            data-src="./images/block-diagram.jpg"
+                            alt="Block Diagram of Animal Detection System"
+                        />
+                        <p>Block Diagram of Animal Detection System</p>
+                        <ol>
+                            <li class="fragment fade-in-then-semi-out">
+                                Image Capturing System
+                            </li>
+                            <li class="fragment fade-in-then-semi-out">
+                                Image Processing System
+                            </li>
+                            <li class="fragment fade-in-then-semi-out">
+                                Convolutional Neural Network
+                            </li>
+                        </ol>
                     </section>
                     <section>
-                        <h2>Component Diagram</h2>
-                        <img data-src="./images/" alt="Component Diagram" />
+                        <h2>Architecture of CNN for Animal Detection</h2>
                     </section>
                     <section>
-                        <h2>State Chart Diagram</h2>
-                        <img data-src="./images/" alt="State Chart Diagram" />
+                        <img
+                            data-src="./images/cnn-arch.png"
+                            alt="Architecture of CNN for Animal Detection"
+                        />
+                        <p class="fragment fade-in-then-semi-out">
+                            CNN is mainly constructed by using following layers:
+                        </p>
+                        <ul>
+                            <li class="fragment fade-in-then-semi-out">
+                                Convolutional Layer
+                            </li>
+                            <li class="fragment fade-in-then-semi-out">
+                                Pooling Layer
+                            </li>
+                            <li class="fragment fade-in-then-semi-out">
+                                Flattening Layer
+                            </li>
+                            <li class="fragment fade-in-then-semi-out">
+                                Fully Connected Layer
+                            </li>
+                        </ul>
                     </section>
                     <section>
-                        <h2>Deployment Diagram</h2>
-                        <img data-src="./images/" alt="Deployment Diagram" />
+                        <h2>Convolutional Layer</h2>
+                        <img
+                            data-src="./images/convolutional-layer.png"
+                            alt="Convolutional Layer"
+                        />
+                        <ul>
+                            <li class="fragment fade-in-then-semi-out">
+                                First layer of CNN.
+                            </li>
+                            <li class="fragment fade-in-then-semi-out">
+                                Made of learnable filters placed spatially along
+                                width and height of input layer.
+                            </li>
+                        </ul>
                     </section>
                     <section>
-                        <h2>Communication Diagram</h2>
-                        <img data-src="./images/" alt="Communication Diagram" />
+                        <h2>Pooling Layer</h2>
+                        <img
+                            data-src="./images/pooling-layer.png"
+                            alt="Pooling Layer"
+                        />
+                        <p class="fragment fade-in-then-semi-out">
+                            Helpful to decrease the quantity of parameters when
+                            the size of image is huge.
+                        </p>
+                    </section>
+                    <section>
+                        <h2>Flattening Layer</h2>
+                        <img
+                            data-src="./images/flattening-layer.png"
+                            alt="Flattening Layer"
+                        />
+                        <p class="fragment fade-in-then-semi-out">
+                            Procedure for converting the two dimensional array
+                            set into a single, long continuous linear vector.
+                        </p>
+                    </section>
+                    <section>
+                        <h2>Fully-Connected Layer</h2>
+                        <img
+                            data-src="./images/fully-connected-layer.png"
+                            alt="Fully-Connected Layer"
+                        />
+                        <ul>
+                            <li class="fragment fade-in-then-semi-out">
+                                Specific type of hidden layer which must be used
+                                within the CNN.
+                            </li>
+                            <li class="fragment fade-in-then-semi-out">
+                                Combines features into attributes that predicts
+                                output more accurately.
+                            </li>
+                        </ul>
                     </section>
                 </section>
 
