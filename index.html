@@ -47,8 +47,7 @@
                             class="demo-logo"
                         />
                     </a>
-                    <h3>AI-based Animal ID & Adoption Service</h3>
-                    <h3>Animal Recognition and Adoption Using AI</h3>
+                    <h3>AI-based Pet Adoption System</h3>
                     <p>
                         <small>
                             By
@@ -148,21 +147,38 @@
                     <section>
                         <h2>Problem Statement</h2>
                     </section>
+
+                    <section>
+                        <p>
+                            People are turning to adoption apps because they
+                            don't have the time to make frequent stops at animal
+                            shelters. To find their next companion they need a
+                            reliable and intuitive app, but find themselves
+                            frustrated with the lack of features and
+                            information, leading to no adoption.
+                        </p>
+                    </section>
+
                     <section>
                         <ul>
                             <li class="fragment fade-in-then-semi-out">
-                                Animals are some times abandoned or lost.
+                                Millions of dogs and cats are currently in
+                                shelter and rescue care center, waiting to be
+                                adopted.
                             </li>
                             <li class="fragment fade-in-then-semi-out">
-                                Once they are lost their chances are too low to
-                                be found.
+                                Create a mobile application that replaces the
+                                current time-consuming pet adoption process with
+                                a mobile friendly one.
                             </li>
                             <li class="fragment fade-in-then-semi-out">
-                                The number of lost pets becoming stray are
-                                increasing day-by-day.
+                                An adopter can search pets according to
+                                distance, gender, breed, age an weight, along
+                                with behavioral characteristics.
                             </li>
                             <li class="fragment fade-in-then-semi-out">
-                                Only a few of them end up in a shelter.
+                                Adopter can also easily contact the
+                                shelter/rescue care.
                             </li>
                             <li class="fragment fade-in-then-semi-out">
                                 Adopting them is a very long and rather a slow
@@ -207,6 +223,7 @@
                     <section>
                         <h2>Literature Survey</h2>
                     </section>
+
                     <section>
                         <table>
                             <thead>
@@ -229,7 +246,12 @@
                                             Deepika Tendulkar<br />
                                         </small>
                                     </td>
-                                    <td>Only related to species</td>
+                                    <td>
+                                        <small>
+                                            Had higher accuracy but with
+                                            restricted access.
+                                        </small>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>JSP-Based Pet Adoption System</td>
@@ -240,8 +262,28 @@
                                             Xiue Meng<br />
                                         </small>
                                     </td>
-                                    <td>Not secured</td>
+                                    <td>
+                                        <small>
+                                            Basic logic of Inventory Management
+                                            System, lack of information, Not
+                                            secured
+                                        </small>
+                                    </td>
                                 </tr>
+                            </tbody>
+                        </table>
+                        <aside class="notes"></aside>
+                    </section>
+
+                    <section>
+                        <table>
+                            <thead>
+                                <th>Title</th>
+                                <th>Year</th>
+                                <th>Author</th>
+                                <th>Description</th>
+                            </thead>
+                            <tbody>
                                 <tr>
                                     <td>
                                         Individual Cattle Identification Using a
@@ -258,23 +300,18 @@
                                             Cameron Clark<br />
                                         </small>
                                     </td>
-                                    <td></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        <aside class="notes"></aside>
-                    </section>
-                    <section>
-                        <table>
-                            <thead>
-                                <th>Title</th>
-                                <th>Year</th>
-                                <th>Author</th>
-                                <th>Description</th>
-                            </thead>
-                            <tbody>
-                                <tr>
                                     <td>
+                                        <small>
+                                            Has more precision but only limited
+                                            to cattle for identification.
+                                            Practical only on a small to medium
+                                            scale.
+                                        </small>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="font-size: 32px">
                                         Scrutiny of Methods for Image Detection
                                         and Recognition of Different Species of
                                         Animals
@@ -287,9 +324,28 @@
                                             Nidhal K. El Abbadi<br />
                                         </small>
                                     </td>
-                                    <td></td>
+                                    <td>
+                                        <small>
+                                            Highlights the different algorithms
+                                            that can be used for image
+                                            recognition.
+                                        </small>
+                                    </td>
                                 </tr>
+                            </tbody>
+                        </table>
+                        <aside class="notes"></aside>
+                    </section>
 
+                    <section>
+                        <table>
+                            <thead>
+                                <th>Title</th>
+                                <th>Year</th>
+                                <th>Author</th>
+                                <th>Description</th>
+                            </thead>
+                            <tbody>
                                 <tr>
                                     <td>Animal Identification</td>
                                     <td>2018</td>
@@ -301,7 +357,15 @@
                                             Litesh Bopche<br />
                                         </small>
                                     </td>
-                                    <td>manule, branding(painful),tattoing (animal restrained),RFID(costly)</td>
+                                    <td>
+                                        <small>
+                                            Needs to assign RFIDs on individual
+                                            animals. Provides great security and
+                                            doesn't get affected by the
+                                            environment. Costly to deploy and
+                                            might harm animals
+                                        </small>
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -310,16 +374,55 @@
                 </section>
 
                 <!-- Slide Existing System -->
-                <section data-visibility="hidden">
+                <section>
                     <section>
                         <h2>Existing System</h2>
+                    </section>
+
+                    <section>
+                        <img
+                            src="./images/existing-system.png"
+                            alt="Existing System"
+                        />
+                    </section>
+
+                    <section>
+                        <ol>
+                            <li>Contacting animal shelter and visit them.</li>
+                            <li>Filling out an application.</li>
+                            <li>Choosing your new pet.</li>
+                            <li>
+                                Experiencing the waiting period (24 - 48 hrs)
+                            </li>
+                            <li>Signing a contract and paying a fee.</li>
+                            <li>Undergoing a trail period.</li>
+                        </ol>
                     </section>
                 </section>
 
                 <!-- Slide Proposed System -->
-                <section data-visibility="hidden">
+                <section>
                     <section>
                         <h2>Proposed System</h2>
+                    </section>
+                    <section>
+                        <h2>A System to...</h2>
+                        <ul>
+                            <li>Find potential adopters.</li>
+                            <li>Make adoption process smoother.</li>
+                            <li>
+                                Providing information to make informed decision.
+                            </li>
+                            <li>
+                                Option to donate money to rescue shelters to
+                                support their cause
+                            </li>
+                            <li>Easily schedule an appointment.</li>
+                            <li>
+                                Create seamless experience for adopters so that
+                                they can only focus on finding their right pet.
+                            </li>
+                        </ul>
                     </section>
                 </section>
 
@@ -338,14 +441,20 @@
                     </section>
                     <section>
                         <img
-                            data-src="./images/animal-rec-class.png"
+                            width="60%"
+                            src="./images/system-architecture.png"
                             alt="The animal recognition and classification system"
                         />
-                        <p>The animal recognition and classification system</p>
+                    </section>
+                    <section>
+                        <img
+                            src="./images/flowchart.jpg"
+                            alt="The animal recognition and classification system"
+                        />
                     </section>
 
                     <!-- Slide Animal Recognition System -->
-                    <section>
+                    <section data-visibility="hidden">
                         <h2>Animal Recognition System</h2>
                         <ol>
                             <li class="fragment fade-in-then-semi-out">
@@ -363,24 +472,30 @@
 
                 <!-- Slide Modules -->
                 <section>
-                    <h2>Modules</h2>
-                    <ul>
-                        <li class="fragment fade-in-then-semi-out">
-                            Recognizing an animal based on an Image.
-                        </li>
-                        <li class="fragment fade-in-then-semi-out">
-                            User Registration, Authentication & Role Management.
-                        </li>
-                        <li class="fragment fade-in-then-semi-out">
-                            Showing Adoption Centers & Vets nearby
-                        </li>
-                        <li class="fragment fade-in-then-semi-out">
-                            Verifying the user's Emotional and Mental health.
-                        </li>
-                        <li class="fragment fade-in-then-semi-out">
-                            Pet Recommendation based on user's lifestyle.
-                        </li>
-                    </ul>
+                    <section>
+                        <h2>Modules</h2>
+                    </section>
+                    <section>
+                        <ul>
+                            <li class="fragment fade-in-then-semi-out">
+                                User Authentication, Authorization & Role
+                                Management.
+                            </li>
+                            <li class="fragment fade-in-then-semi-out">
+                                Recognizing an Animal based on an Image.
+                            </li>
+                            <li class="fragment fade-in-then-semi-out">
+                                Showing Adoption Centers & Vets nearby
+                            </li>
+                            <li class="fragment fade-in-then-semi-out">
+                                Verifying the user's Emotional and Mental
+                                health.
+                            </li>
+                            <li class="fragment fade-in-then-semi-out">
+                                Pet Recommendation based on user's lifestyle.
+                            </li>
+                        </ul>
+                    </section>
                 </section>
 
                 <!-- Slide Algorithms -->
@@ -391,26 +506,71 @@
                     <section>
                         <ol>
                             <li class="fragment fade-in-then-semi-out">
-                                Recognizing
+                                Convolutional Neural Network
                             </li>
                             <li class="fragment fade-in-then-semi-out">
-                                Searching Nearest Point
+                                K-Nearest Neighbor
                             </li>
                             <li class="fragment fade-in-then-semi-out">
                                 Pattern Matching
                             </li>
                             <li class="fragment fade-in-then-semi-out">
-                                Emotion Detection
+                                Sentiment Analysis
+                            </li>
+                            <li class="fragment fade-in-then-semi-out">
+                                Collaborative Filtering
                             </li>
                         </ol>
                     </section>
+
                     <section>
+                        <h2>Convolutional Neural Network</h2>
                         <img
                             src="./images/classification-process.png"
                             alt="Classification Process"
                             width="700px"
                         />
                         <p>Classification Process</p>
+
+                        <aside class="notes">
+                            <ul>
+                                <li>
+                                    <h2>
+                                        Foreground-background segmentation and
+                                        object verification
+                                    </h2>
+                                    <p>
+                                        Detects animals in highly cluttered
+                                        videos
+                                    </p>
+                                    <p>
+                                        Ensemble graph cuts for object
+                                        classifier as foreground-background
+                                        segmentation followed by object
+                                        verification
+                                    </p>
+                                    <p>Precision: 0.82</p>
+                                </li>
+                                <li>
+                                    <h2>
+                                        Fusion of deep learning and HOG features
+                                    </h2>
+                                    <p>
+                                        Detects animals in highly cluttered
+                                        videos
+                                    </p>
+                                    <p>Precision: 0.82</p>
+                                </li>
+                                <li>
+                                    <h2>Deep CNN with machine learning</h2>
+                                    <p>
+                                        Detects animals in highly cluttered
+                                        videos
+                                    </p>
+                                    <p>Precision: 0.91</p>
+                                </li>
+                            </ul>
+                        </aside>
                     </section>
 
                     <!-- Slide Architecture of CNN -->
@@ -422,6 +582,10 @@
                     <section>
                         <img
                             data-src="./images/cnn-arch.png"
+                            alt="Architecture of CNN for Animal Detection"
+                        />
+                        <img
+                            data-src="./images/cnn.png"
                             alt="Architecture of CNN for Animal Detection"
                         />
                     </section>
@@ -448,6 +612,186 @@
                                 Fully Connected Layer
                             </li>
                         </ul>
+                    </section>
+
+                    <!-- Slide KNN -->
+                    <section>
+                        <h2>K-Nearest Neighbor</h2>
+                        <img
+                            style="background-color: white; padding: 1rem"
+                            width="50%"
+                            src="./images/knn.png"
+                            alt="KNN"
+                        />
+                        <p>Finding Nearest Points</p>
+
+                        <aside class="notes">
+                            Comparison Algorithm
+                            <p>
+                                The k-nearest neighbors (KNN) algorithm is a
+                                simple, supervised machine learning algorithm
+                                that can be used to solve both classification
+                                and regression problems. It's easy to implement
+                                and understand, but has a major drawback of
+                                becoming significantly slows as the size of that
+                                data in use grows.
+                            </p>
+                            <a
+                                href="https://www.javatpoint.com/k-nearest-neighbor-algorithm-for-machine-learning"
+                                >KNN Algorithm</a
+                            >
+                            <ol>
+                                <li>Select the number K of the neighbors</li>
+                                <li>
+                                    Calculate the Euclidean distance of K number
+                                    of neighbors
+                                </li>
+                                <li>
+                                    Take the K nearest neighbors as per the
+                                    calculated Euclidean distance.
+                                </li>
+                                <li>
+                                    Among these k neighbors, count the number of
+                                    the data points in each category.
+                                </li>
+                                <li>
+                                    Assign the new data points to that category
+                                    for which the number of the neighbor is
+                                    maximum.
+                                </li>
+                                <li>Our model is ready.</li>
+                            </ol>
+                        </aside>
+                    </section>
+                    <section>
+                        <ul>
+                            <li class="fragment fade-in-then-semi-out">
+                                Simple & supervised Algorithm.
+                            </li>
+                            <li class="fragment fade-in-then-semi-out">
+                                Used to solve classification and regression
+                                problems.
+                            </li>
+                            <li class="fragment fade-in-then-semi-out">
+                                Easy to implement & understand.
+                            </li>
+                            <li class="fragment fade-in-then-semi-out">
+                                Drawback: Slows down as the size of the data
+                                increases.
+                            </li>
+                        </ul>
+                    </section>
+
+                    <!-- Slide Pattern Matching -->
+                    <section>
+                        <h2>Pattern Matching</h2>
+                        <img
+                            style="background-color: white; padding: 1rem"
+                            src="./images/pattern-matching.png"
+                            alt="Pattern Matching"
+                        />
+                        <p>To find a pet that suits your lifestyle</p>
+
+                        <aside class="notes">
+                            <ul>
+                                <li>Size of Living Space</li>
+                                <li>
+                                    Time are you willing to spend with your pet
+                                </li>
+                                <li>
+                                    What kind of pet would you like to keep?
+                                    Mammal, Bird or Aerial
+                                </li>
+                                <li>Kind of mammal/bird would you like</li>
+                                <li>Where would you house your pet</li>
+                                <li>Expected Lifespan of the pet</li>
+                                <li>Color</li>
+                            </ul>
+                        </aside>
+                    </section>
+
+                    <!-- Slide Sentiment Analysis -->
+                    <section>
+                        <h2>Sentiment Analysis</h2>
+                        <p>To know the opinion.</p>
+                        <p>
+                            Sentiment analysis is a predominantly classification
+                            algorithm aimed at finding an opinionated point of
+                            view and its disposition and highlighting the
+                            information of particular interest in the process.
+                        </p>
+
+                        <aside class="notes">
+                            <h2>Algorithm Scope</h2>
+                            <ul>
+                                <li>Document-level: entire text</li>
+                                <li>Sentence-level: for a single sentence.</li>
+                                <li>
+                                    Sub-sentence level: for sub-expressions,
+                                    words.
+                                </li>
+                            </ul>
+
+                            <h2>Types of Opinion</h2>
+                            <ul>
+                                <li>Direct: Directly stated.</li>
+                                <li>
+                                    Comparative: opinion that compares two
+                                    things.
+                                </li>
+                                <li>Explicit: clearly defined.</li>
+                                <li>Implicit: implemented but not clear.</li>
+                            </ul>
+
+                            <h2>Why Matters</h2>
+                            <ul>
+                                <li>
+                                    Customer support correspondence (regarding
+                                    your product)
+                                </li>
+                                <li>User-generated Product reviews</li>
+                                <li>
+                                    Professional product reviews (as in The
+                                    Verge or Wired)
+                                </li>
+                                <li>Social Media tractions</li>
+                                <li>General and special-purpose forums</li>
+                            </ul>
+                        </aside>
+                    </section>
+
+                    <!-- Slide Collaborative Filtering -->
+                    <section>
+                        <h2>Collaborative Filtering</h2>
+                        <img
+                            src="./images/recommendation-system.png"
+                            alt="Recommendation System"
+                        />
+                        <p>Recommendation System</p>
+                        <aside class="notes">
+                            <ul>
+                                <li>
+                                    <h2>Collaborative Filtering</h2>
+                                    <ol>
+                                        <li>
+                                            Find out how many users/items in the
+                                            database are similar to the given
+                                            user/item.
+                                        </li>
+                                        <li>
+                                            Assess other users/items to predict
+                                            what grade you would give the user
+                                            of this product, given the total
+                                            weight of the users/items that are
+                                            more similar to this one.
+                                        </li>
+                                    </ol>
+                                </li>
+                                <li>
+                                    <h2>Content-based Filtering</h2>
+                                </li>
+                            </ul>
+                        </aside>
                     </section>
 
                     <!-- Slide Alternative Algorithms -->
@@ -555,7 +899,9 @@
                         <h2>Advantages</h2>
                         <ul>
                             <li class="fragment fade-in-then-semi-out">
-                                Process that is simpler, easier, saves time, is clearer, transparent, trustworthy, and more effective.
+                                Process that is simpler, easier, saves time, is
+                                clearer, transparent, trustworthy, and more
+                                effective.
                             </li>
                             <li class="fragment fade-in-then-semi-out">
                                 Provides detailed knowledge.
@@ -576,7 +922,8 @@
                                 Recognition results can never be 100% accurate.
                             </li>
                             <li class="fragment fade-in-then-semi-out">
-                                Data to be store may increase drastically based on the region it covers.
+                                Data to be store may increase drastically based
+                                on the region it covers.
                             </li>
                         </ul>
                     </section>
@@ -585,6 +932,10 @@
                 <!-- Slide Applications -->
                 <section>
                     <h2>Applications</h2>
+                    <img
+                        src="./images/target-audience.png"
+                        alt="Target Audience"
+                    />
                     <p>Application can be used by</p>
                     <ul>
                         <li class="fragment fade-in-then-semi-out">
@@ -612,9 +963,10 @@
                     </section>
                     <section>
                         <p>
-                            The suggested method improves analytical accuracy, minimizes human labour, and makes the adoption process more useful, faster, and effective.
+                            The suggested method improves analytical accuracy,
+                            minimizes human labour, and makes the adoption
+                            process more useful, faster, and effective.
                         </p>
-                        </ul>
                     </section>
                 </section>
 
