@@ -89,59 +89,6 @@
                     <aside class="notes"></aside>
                 </section>
 
-                <!-- Slide Info -->
-                <section data-visibility="hidden">
-                    <section
-                        data-background="./images/slide-2-1.jpg"
-                        data-background-opacity="0.5"
-                    >
-                        <div data-state="overlay">
-                            <h2>Learn more about animals.</h2>
-                            <p>
-                                <em> Awe! That's a cute little dog.</em>
-                            </p>
-                        </div>
-                    </section>
-
-                    <section
-                        data-background="./images/what-dog.jpg"
-                        data-background-opacity="0.8"
-                    >
-                        <div class="custom-overlay">
-                            <h2>
-                                <em
-                                    >What breed is that? <br /><small
-                                        >- I don't know...</small
-                                    ></em
-                                >
-                            </h2>
-                            <p>
-                                Pet owners frequently do not know the breed of
-                                their pet exactly. Therefore, our apps enable
-                                specific information about the various
-                                characteristics and traits of a pet.
-                            </p>
-                        </div>
-                    </section>
-
-                    <section
-                        data-background="./images/breed-test.jpg"
-                        data-background-opacity="0.8"
-                    >
-                        <div class="custom-overlay">
-                            <h2>Reduce the cost</h2>
-                            <p>
-                                In contrast to a time and cost intensive
-                                analysis of the DNA, the apps provide a reliable
-                                statement about the breed within seconds. This
-                                implies not only pure breed dogs, cats or
-                                horses, but also the determination of mixed
-                                breeds.
-                            </p>
-                        </div>
-                    </section>
-                </section>
-
                 <!-- Slide Problem Statement -->
                 <section>
                     <section>
@@ -441,15 +388,24 @@
                     </section>
                     <section>
                         <img
-                            width="60%"
+                            width="50%"
                             src="./images/system-architecture.png"
                             alt="The animal recognition and classification system"
                         />
                     </section>
                     <section>
+                        <h2>User-side Flow Diagram</h2>
                         <img
-                            src="./images/flowchart.jpg"
-                            alt="The animal recognition and classification system"
+                            src="./images/flow-diagram-user.png"
+                            alt="Flow Diagram for User"
+                        />
+                    </section>
+                    <section>
+                        <h2>Admin-side Flow Diagram</h2>
+                        <img
+                            width="45%"
+                            src="./images/flow-diagram-admin.png"
+                            alt="Flow Diagram for Admin"
                         />
                     </section>
 
@@ -518,7 +474,7 @@
                                 Sentiment Analysis
                             </li>
                             <li class="fragment fade-in-then-semi-out">
-                                Collaborative Filtering
+                                Content-based Filtering
                             </li>
                         </ol>
                     </section>
@@ -582,7 +538,7 @@
                         <img
                             data-src="./images/cnn-block-diagram.png"
                             alt="Block Diagram of Animal Detection System"
-                            width="500px"
+                            width="45%"
                         />
                         <p class="fragment fade-in-then-semi-out">
                             CNN is mainly constructed by using following layers:
@@ -618,12 +574,20 @@
                     <!-- Slide KNN -->
                     <section>
                         <h2>K-Nearest Neighbor</h2>
-                        <img
-                            style="background-color: white; padding: 1rem"
-                            width="50%"
-                            src="./images/knn.png"
-                            alt="KNN"
-                        />
+                        <div style="display: flex; height: 50vh">
+                            <img
+                                style="background-color: white; padding: 1rem"
+                                width="50%"
+                                src="./images/knn.png"
+                                alt="KNN"
+                            />
+                            <img
+                                style="background-color: white; padding: 1rem"
+                                width="50%"
+                                src="./images/nearest-1.gif"
+                                alt="KNN"
+                            />
+                        </div>
                         <p>Finding Nearest Points</p>
 
                         <aside class="notes">
@@ -761,10 +725,11 @@
                         </aside>
                     </section>
 
-                    <!-- Slide Collaborative Filtering -->
+                    <!-- Slide Content-based Filtering -->
                     <section>
-                        <h2>Collaborative Filtering</h2>
+                        <h2>Content-based Filtering</h2>
                         <img
+                            width="80%"
                             src="./images/recommendation-system.png"
                             alt="Recommendation System"
                         />
@@ -772,7 +737,7 @@
                         <aside class="notes">
                             <ul>
                                 <li>
-                                    <h2>Collaborative Filtering</h2>
+                                    <h2>Content-based Filtering</h2>
                                     <ol>
                                         <li>
                                             Find out how many users/items in the
@@ -935,6 +900,7 @@
                     <h2>Applications</h2>
                     <img
                         src="./images/target-audience.png"
+                        width="75%"
                         alt="Target Audience"
                     />
                     <p>Application can be used by</p>
